@@ -134,7 +134,7 @@ def RunModel(num_parameters, num_training_samples):
 N = kMaxNumParameters
 plots = []
 legends = []
-for n in [N/16, N/8, N/4, N/2, N]:
+for n in [N/8, N/4, N/2, N]:
   if (n < 4):
     continue
   # Collect the performance data for the plot
